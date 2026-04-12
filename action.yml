@@ -1,0 +1,5 @@
+
+name: 'ESP-IDF & Alire'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
