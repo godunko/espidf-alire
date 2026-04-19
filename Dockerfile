@@ -1,4 +1,4 @@
-FROM espressif/idf:v5.5.4
+FROM espressif/idf:v6.0
 
 # Install `esp-rom-elfs` and `qemu-xtensa` tools
 RUN python $IDF_PATH/tools/idf_tools.py install esp-rom-elfs qemu-xtensa
